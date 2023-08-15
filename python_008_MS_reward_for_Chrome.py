@@ -11,9 +11,6 @@ driver = webdriver.Chrome()#'/path/to/chromedriver'  # Optional argument, if not
 driver.get('https://www.bing.com/');
 
 #time.sleep(5) # Let the user actually m
-# nh
-# 
-# see something!
 
 search_box = driver.find_element(By.XPATH, "/html/body/div[1]/div/div[3]/div[2]/form/div[1]/div/textarea")
 num=random.randint(0,1000)
