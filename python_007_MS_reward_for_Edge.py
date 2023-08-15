@@ -1,7 +1,5 @@
 from selenium import webdriver
 import time
-import chromedriver_binary
-import pickle
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
