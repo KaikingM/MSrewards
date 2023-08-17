@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import random
-import kaipy
-#import playsound
+import winsound
+
 driver = webdriver.Edge()
 #executable_path="C:\\Users\\kaiki\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\Scripts\\msedgedriver.exe"
 time.sleep(2)
@@ -35,7 +35,7 @@ time.sleep(10) # Let the user actually see something!
 driver.get("https://www.bing.com")
 
 
-kaipy.kanon()
+winsound.Beep(440,1000)
 time.sleep(30)
 
 #playsound.playsound(r"music\sw_on.mp3")
